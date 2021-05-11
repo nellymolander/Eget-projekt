@@ -36,6 +36,10 @@ header{
 		grid-column: 1/-1;
     grid-row: 1/2;
 }
+.nina{
+  grid-column: 1/-1;
+  grid-row: 3/5;
+}
 section{
   grid-column: 2/3;
   grid-row: 1/6;
