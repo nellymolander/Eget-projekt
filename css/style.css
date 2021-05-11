@@ -30,10 +30,9 @@ li a:hover{
   font-family:sans-serif;
 }
 .mySlides {
-  animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
+  {animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
   display: none;
 }
-
 .slideshow {
   margin: 0px auto;
   margin-top: 50px;
