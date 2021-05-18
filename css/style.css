@@ -1,10 +1,9 @@
+/*Rubrik*/
 h1{
   text-align: center;
   font-size: 40px
 }
-img{
-
-}
+/*meny*/
 ul{
   text-align: center;
   margin: 0;
@@ -14,6 +13,7 @@ ul{
 li{
   display: inline-block;
 }
+
 li a {
   text-decoration: none;
   color: white;
@@ -25,9 +25,30 @@ li a {
 li a:hover{
   background-color: #A4CAFE;
 }
+/*bilder*/
+.nina{
+  width:100%;
+}
+.ludde{
+  width:100%;
+}
+.carlos{
+  width:100%;
+}
+.ninis{
+  width:100%;
+}
+/*slideshow*/
+.mySlides{
+  width:100%;
+}
 .rubrik{
   font-size: 30px;
   font-family:sans-serif;
+}
+/* slideshow*/
+.slideshow{
+  width:100%;
 }
 .mySlides {
   animation: fading 7s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0};
@@ -79,3 +100,21 @@ li a:hover{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: black;}
+/*mediaquery*/
+@media only screen and (max-width: 450px){
+  .nina{
+    width:100%;
+  }
+  .ludde{
+    width:100%;
+  }
+  .carlos{
+    width:100%;
+  }
+  .ninis{
+    width:100%;
+  }
+  .mySlides{
+    width:100%;
+  }
+}
